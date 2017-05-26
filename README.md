@@ -13,7 +13,7 @@ If you'd like to obtain a trial or full version of Smart IDReader please contact
 * http://smartengines.biz/contacts
 * http://smartengines.ru/contacts
 
-Test and trial/full versions are only different in static library + configuration files so you wouldn't have to rewrite any code.
+Test and trial/full versions are only different in static library + configuration files so you wouldn't have to rewrite any code after you're finished integrating Smart IDReader SDK into your application.
 
 ## Smart IDReader overview
 
