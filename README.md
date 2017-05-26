@@ -1,28 +1,32 @@
 # Smart IDReader iOS SDK - Test version
 
-This is a **TEST** version of Smart IDReader iOS SDK which demonstrates the usage of our library/SDK without actually providing any recognition functionality.
+This is a **TEST** version of [Smart IDReader](http://smartengines.biz/products/smart-id-recognition/) iOS SDK by [Smart Engines](http://smartengines.biz) which demonstrates the usage of Smart~IDReader library/SDK without actually providing any recognition functionality.
 
-If you'd like to obtain a trial or full version of Smart IDReader please contact us via
+Simply open [SESmartIDSample.xcodeproj](SESmartIDSample.xcodeproj) and run it to see the working example.  
+
+More documentation is available in [doc](doc) directory.
+
+Free demonstrational applications with full functionality are available at [App Store](https://itunes.apple.com/app/smart-idreader/id1157877082) and [Google Play](https://play.google.com/store/apps/details?id=biz.smartengines.smartid).
+
+If you'd like to obtain a trial or full version of Smart IDReader please contact us via:
 * support@smartengines.biz 
-* http://smartengines.biz/contacts/
-* http://smartengines.ru/contacts/
+* http://smartengines.biz/contacts
+* http://smartengines.ru/contacts
 
-## Smart IDReader
+Test and trial/full versions are only different in static library + configuration files so you wouldn't have to rewrite any code.
+
+## Smart IDReader overview
 
 Smart IDReader technology allows you to recognize identity and property rights documents while using video/photo cameras and scanners in mobile, desktop, server and terminal solutions. With this tecnhology you only need to present the document to the camera to let Smart IDReader recognize all required data in 1-3 seconds and then fill them in any file, form or a work sheet.
 
 Key features:
-* Recognition on mobile devices
-* Recognition in real time
-* Recognition of documents in video stream
+* Real time document recognition in video stream on mobile devices
 * Recognition of documents in various lighting conditions
 * White label license
 * Security: only device RAM is used, no personal data is being copied or sent over the internet (e.g. for processing on servers)
 
-Supported platforms: iOS, Android, Windows, Linux, MacOS, Solaris and others
-
-Supported programming languages: C++, C, C#, Objective-C, Java, Visual Basic and others
-
+Supported platforms: iOS, Android, Windows, Linux, MacOS, Solaris and others  
+Supported programming languages: C++, C, C#, Objective-C, Java, Visual Basic and others  
 Supported architectures: armv7-v8, aarch64, x86, x86_64, SPARC, E2K and others
 
 ## Smart IDReader SDK Integration Guide for iOS
