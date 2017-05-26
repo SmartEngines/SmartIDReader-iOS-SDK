@@ -2,7 +2,10 @@
 
 This is a **TEST** version of Smart IDReader iOS SDK which demonstrates the usage of our library/SDK without actually providing any recognition functionality.
 
-If you'd like to obtain a trial or full version of Smart IDReader please contact us via support@smartengines.biz or http://smartengines.biz/contacts/
+If you'd like to obtain a trial or full version of Smart IDReader please contact us via
+* support@smartengines.biz 
+* http://smartengines.biz/contacts/
+* http://smartengines.ru/contacts/
 
 ## Smart IDReader
 
@@ -17,8 +20,10 @@ Key features:
 * Security: only device RAM is used, no personal data is being copied or sent over the internet (e.g. for processing on servers)
 
 Supported platforms: iOS, Android, Windows, Linux, MacOS, Solaris and others
-Supported programming languages: C++, C, C#, Objective-C, Java, Visual Basic 
-Supported architectures: armv7-v8, aarch64, x86, x86_64, SPARC, E2K
+
+Supported programming languages: C++, C, C#, Objective-C, Java, Visual Basic and others
+
+Supported architectures: armv7-v8, aarch64, x86, x86_64, SPARC, E2K and others
 
 ## Smart IDReader SDK Integration Guide for iOS
 
