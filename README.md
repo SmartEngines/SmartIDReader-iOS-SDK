@@ -155,12 +155,12 @@ Supported architectures: armv7-v8, aarch64, x86, x86_64, SPARC, E2K and others
     [self.smartIdViewController removeEnabledDocumentTypesMask:"*"];
 
     //  [self.smartIdViewController addEnabledDocumentTypesMask:"*"];
-    //  [self.smartIdViewController addEnabledDocumentTypesMask:"mrz.*"];
+    [self.smartIdViewController addEnabledDocumentTypesMask:"mrz.*"];
     //  [self.smartIdViewController addEnabledDocumentTypesMask:"card.*"];
-    [self.smartIdViewController addEnabledDocumentTypesMask:"rus.passport.*"];
-    //  [self.smartIdViewController addEnabledDocumentTypesMask:"rus.snils.*"];
-    //  [self.smartIdViewController addEnabledDocumentTypesMask:"rus.sts.*"];
-    //  [self.smartIdViewController addEnabledDocumentTypesMask:"rus.drvlic.*"];
+    //  [self.smartIdViewController addEnabledDocumentTypesMask:"rus.passport.*"];
+    //  [self.smartIdViewController addEnabledDocumentTypesMask:"deu.id.*"];
+    //  [self.smartIdViewController addEnabledDocumentTypesMask:"gbr.drvlic.*"];
+    //  ...
     
     // if needed, set a timeout in seconds
     self.smartIdViewController.sessionTimeout = 5.0f;
