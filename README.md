@@ -1,8 +1,8 @@
 # Smart IDReader iOS SDK - Test version
 
-This is a **TEST** version of [Smart IDReader](http://smartengines.biz/products/smart-id-recognition/) iOS SDK by [Smart Engines](http://smartengines.biz) which demonstrates the usage of Smart~IDReader library/SDK without actually providing any recognition functionality.
-
-Simply open [SESmartIDSample.xcodeproj](SESmartIDSample.xcodeproj) and run it to see the working example.  
+This is a **TEST** version of [Smart IDReader](http://smartengines.biz/products/smart-id-recognition/) iOS SDK by [Smart Engines](http://smartengines.biz) which demonstrates the usage of Smart IDReader library/SDK without actually providing any recognition functionality.
+Simply open `SESmartIDSample.xcodeproj` and run it to see the working example.
+You are free to change the code however you want.
 
 More documentation is available in [doc](doc) directory.
 
@@ -13,7 +13,7 @@ If you'd like to obtain a trial or full version of Smart IDReader please contact
 * http://smartengines.biz/contacts
 * http://smartengines.ru/contacts
 
-Test and trial/full versions are only different in static library + configuration files so you wouldn't have to rewrite any code.
+Test and trial/full versions are only different in static library + configuration files so you wouldn't have to rewrite any code after you're finished integrating Smart IDReader SDK into your application.
 
 ## Smart IDReader overview
 
