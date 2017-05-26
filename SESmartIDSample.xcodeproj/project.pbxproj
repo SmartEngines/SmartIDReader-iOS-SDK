@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB10A6941C90898E00C508CF /* SESIDQuadrangleView.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB10A6931C90898E00C508CF /* SESIDQuadrangleView.mm */; };
+		DBBACF0D1A4D63FF00252642 /* SESIDSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBACF0A1A4D63FF00252642 /* SESIDSampleAppDelegate.m */; };
+		DBBACF0F1A4D63FF00252642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBACF0C1A4D63FF00252642 /* main.m */; };
+		DBBACF131A4D65AB00252642 /* SESIDSampleViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DBBACF121A4D65AB00252642 /* SESIDSampleViewController.mm */; };
+		DBD8826D1A641C290056CC40 /* SESIDCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD882531A641C290056CC40 /* SESIDCameraManager.m */; };
+		DBD8826E1A641C290056CC40 /* SESIDRecognitionCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = DBD882551A641C290056CC40 /* SESIDRecognitionCore.mm */; };
+		DBD8826F1A641C290056CC40 /* SESIDRoiOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD882571A641C290056CC40 /* SESIDRoiOverlayView.m */; };
+		DBD882711A641C290056CC40 /* SESIDViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DBD8825B1A641C290056CC40 /* SESIDViewController.mm */; };
+		DBD8827B1A6427360056CC40 /* libsmartid-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD8827A1A6427360056CC40 /* libsmartid-universal.a */; };
+		DBD8827D1A6691D40056CC40 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD8827C1A6691D40056CC40 /* Default-568h@2x.png */; };
+		DBEA4CCA1CF34BD1004C1835 /* data-zip in Resources */ = {isa = PBXBuildFile; fileRef = DBEA4CC91CF34BD1004C1835 /* data-zip */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB10A6921C90898E00C508CF /* SESIDQuadrangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESIDQuadrangleView.h; sourceTree = "<group>"; };
+		DB10A6931C90898E00C508CF /* SESIDQuadrangleView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SESIDQuadrangleView.mm; sourceTree = "<group>"; };
+		DBBACEDF1A4C495300252642 /* SESmartIDSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SESmartIDSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBACF091A4D63FF00252642 /* SESIDSampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESIDSampleAppDelegate.h; sourceTree = "<group>"; };
+		DBBACF0A1A4D63FF00252642 /* SESIDSampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESIDSampleAppDelegate.m; sourceTree = "<group>"; };
+		DBBACF0B1A4D63FF00252642 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBACF0C1A4D63FF00252642 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBBACF111A4D65AB00252642 /* SESIDSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESIDSampleViewController.h; sourceTree = "<group>"; };
+		DBBACF121A4D65AB00252642 /* SESIDSampleViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SESIDSampleViewController.mm; sourceTree = "<group>"; };
+		DBD882521A641C290056CC40 /* SESIDCameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESIDCameraManager.h; sourceTree = "<group>"; };
+		DBD882531A641C290056CC40 /* SESIDCameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESIDCameraManager.m; sourceTree = "<group>"; };
+		DBD882541A641C290056CC40 /* SESIDRecognitionCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESIDRecognitionCore.h; sourceTree = "<group>"; };
+		DBD882551A641C290056CC40 /* SESIDRecognitionCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SESIDRecognitionCore.mm; sourceTree = "<group>"; };
+		DBD882561A641C290056CC40 /* SESIDRoiOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESIDRoiOverlayView.h; sourceTree = "<group>"; };
+		DBD882571A641C290056CC40 /* SESIDRoiOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SESIDRoiOverlayView.m; sourceTree = "<group>"; };
+		DBD8825A1A641C290056CC40 /* SESIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SESIDViewController.h; sourceTree = "<group>"; };
+		DBD8825B1A641C290056CC40 /* SESIDViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SESIDViewController.mm; sourceTree = "<group>"; };
+		DBD8827A1A6427360056CC40 /* libsmartid-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libsmartid-universal.a"; sourceTree = "<group>"; };
+		DBD8827C1A6691D40056CC40 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DBEA4CC91CF34BD1004C1835 /* data-zip */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "data-zip"; path = "SESmartIDCore/data-zip"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBBACEDC1A4C495300252642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD8827B1A6427360056CC40 /* libsmartid-universal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBBACED61A4C495300252642 = {
+			isa = PBXGroup;
+			children = (
+				DBD882301A641C290056CC40 /* SESmartID */,
+				DBBACF081A4D63FF00252642 /* SESmartIDSample */,
+				DBBACEE01A4C495300252642 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBBACEE01A4C495300252642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBBACEDF1A4C495300252642 /* SESmartIDSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBBACF081A4D63FF00252642 /* SESmartIDSample */ = {
+			isa = PBXGroup;
+			children = (
+				DBBACF101A4D657C00252642 /* Supporting Files */,
+				DBBACF111A4D65AB00252642 /* SESIDSampleViewController.h */,
+				DBBACF121A4D65AB00252642 /* SESIDSampleViewController.mm */,
+			);
+			path = SESmartIDSample;
+			sourceTree = "<group>";
+		};
+		DBBACF101A4D657C00252642 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBD8827C1A6691D40056CC40 /* Default-568h@2x.png */,
+				DBBACF091A4D63FF00252642 /* SESIDSampleAppDelegate.h */,
+				DBBACF0A1A4D63FF00252642 /* SESIDSampleAppDelegate.m */,
+				DBBACF0C1A4D63FF00252642 /* main.m */,
+				DBBACF0B1A4D63FF00252642 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBD882301A641C290056CC40 /* SESmartID */ = {
+			isa = PBXGroup;
+			children = (
+				DBEA4CC91CF34BD1004C1835 /* data-zip */,
+				DBD882791A6427360056CC40 /* lib */,
+				DBD8825A1A641C290056CC40 /* SESIDViewController.h */,
+				DBD8825B1A641C290056CC40 /* SESIDViewController.mm */,
+				DBD882521A641C290056CC40 /* SESIDCameraManager.h */,
+				DBD882531A641C290056CC40 /* SESIDCameraManager.m */,
+				DBD882541A641C290056CC40 /* SESIDRecognitionCore.h */,
+				DBD882551A641C290056CC40 /* SESIDRecognitionCore.mm */,
+				DBD882561A641C290056CC40 /* SESIDRoiOverlayView.h */,
+				DBD882571A641C290056CC40 /* SESIDRoiOverlayView.m */,
+				DB10A6921C90898E00C508CF /* SESIDQuadrangleView.h */,
+				DB10A6931C90898E00C508CF /* SESIDQuadrangleView.mm */,
+			);
+			path = SESmartID;
+			sourceTree = "<group>";
+		};
+		DBD882791A6427360056CC40 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DBD8827A1A6427360056CC40 /* libsmartid-universal.a */,
+			);
+			name = lib;
+			path = SESmartIDCore/lib;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBBACEDE1A4C495300252642 /* SESmartIDSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBACF021A4C495300252642 /* Build configuration list for PBXNativeTarget "SESmartIDSample" */;
+			buildPhases = (
+				DBBACEDB1A4C495300252642 /* Sources */,
+				DBBACEDC1A4C495300252642 /* Frameworks */,
+				DBBACEDD1A4C495300252642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SESmartIDSample;
+			productName = SESmartID;
+			productReference = DBBACEDF1A4C495300252642 /* SESmartIDSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBBACED71A4C495300252642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SESID;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Smart Engines Ltd";
+				TargetAttributes = {
+					DBBACEDE1A4C495300252642 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = WWNR4RF9QW;
+					};
+				};
+			};
+			buildConfigurationList = DBBACEDA1A4C495300252642 /* Build configuration list for PBXProject "SESmartIDSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBBACED61A4C495300252642;
+			productRefGroup = DBBACEE01A4C495300252642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBBACEDE1A4C495300252642 /* SESmartIDSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBBACEDD1A4C495300252642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEA4CCA1CF34BD1004C1835 /* data-zip in Resources */,
+				DBD8827D1A6691D40056CC40 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBBACEDB1A4C495300252642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD8826D1A641C290056CC40 /* SESIDCameraManager.m in Sources */,
+				DBBACF131A4D65AB00252642 /* SESIDSampleViewController.mm in Sources */,
+				DBBACF0D1A4D63FF00252642 /* SESIDSampleAppDelegate.m in Sources */,
+				DBD8826E1A641C290056CC40 /* SESIDRecognitionCore.mm in Sources */,
+				DBD8826F1A641C290056CC40 /* SESIDRoiOverlayView.m in Sources */,
+				DB10A6941C90898E00C508CF /* SESIDQuadrangleView.mm in Sources */,
+				DBD882711A641C290056CC40 /* SESIDViewController.mm in Sources */,
+				DBBACF0F1A4D63FF00252642 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DBBACF001A4C495300252642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBBACF011A4C495300252642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBBACF031A4C495300252642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/SESmartIDCore/include\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SESmartIDSample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SESmartIDCore/lib",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartengines.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = SESmartIDSample;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBBACF041A4C495300252642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/SESmartIDCore/include\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SESmartIDSample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SESmartIDCore/lib",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartengines.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = SESmartIDSample;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBBACEDA1A4C495300252642 /* Build configuration list for PBXProject "SESmartIDSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBACF001A4C495300252642 /* Debug */,
+				DBBACF011A4C495300252642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBACF021A4C495300252642 /* Build configuration list for PBXNativeTarget "SESmartIDSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBACF031A4C495300252642 /* Debug */,
+				DBBACF041A4C495300252642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBBACED71A4C495300252642 /* Project object */;
+}
