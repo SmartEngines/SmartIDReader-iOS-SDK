@@ -11,8 +11,8 @@ More documentation is available in [doc](doc) directory.
 Free demonstrational applications with full functionality are available at [App Store](https://itunes.apple.com/app/smart-idreader/id1157877082) and [Google Play](https://play.google.com/store/apps/details?id=biz.smartengines.smartid).
 
 If you'd like to obtain a trial or full version of Smart IDReader please contact us via:
-* support@smartengines.biz 
-* http://smartengines.biz/contacts
+* support@smartengines.com 
+* http://smartengines.com/contacts
 * http://smartengines.ru/contacts
 
 Test and trial/full versions are only different in static library + configuration files so you wouldn't have to rewrite any code after you're finished integrating Smart IDReader SDK into your application.
@@ -27,7 +27,7 @@ Key features:
 * White label license
 * Security: only device RAM is used, no personal data is being copied or sent over the internet (e.g. for processing on servers)
 
-Supported platforms: iOS, Android, Windows, Linux, MacOS, Solaris and others  
+Supported platforms: iOS, Android, Windows, Linux, MacOS, Solaris and othaers  
 Supported programming languages: C++, C, C#, Objective-C, Java, Visual Basic and others  
 Supported architectures: armv7-v8, aarch64, x86, x86_64, SPARC, E2K and others
 
